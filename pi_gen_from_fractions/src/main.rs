@@ -1,4 +1,4 @@
-const UPLIMIT: u64 = 1000;
+const UPLIMIT: u64 = 1000000;
 
 fn calc_inf_series() -> f64 {
     let mut sum: f64 = 0.0;
@@ -13,6 +13,6 @@ fn calc_inf_series() -> f64 {
 fn main() {
     println!(
              "{}",
-             (6.0*calc_inf_series()).sqrt()
+             (6.0 / calc_inf_series()).sqrt()
             );
 }
