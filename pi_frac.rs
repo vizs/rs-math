@@ -1,4 +1,4 @@
-const UPLIMIT: u64 = 1000000;
+const UPLIMIT: u64 = 100;
 
 fn calc_inf_series() -> f64 {
     let mut sum: f64 = 0.0;
